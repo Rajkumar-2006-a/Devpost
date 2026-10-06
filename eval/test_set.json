@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Explain the main concept introduced in this material",
+    "gold_location": "p1",
+    "expected_keywords": ["concept", "definition", "explain"],
+    "off_material": false,
+    "note": "Replace with actual questions from your uploaded materials"
+  },
+  {
+    "question": "What formulas are derived in the first chapter?",
+    "gold_location": "p1",
+    "expected_keywords": ["formula", "equation", "derive"],
+    "off_material": false
+  },
+  {
+    "question": "Summarize the key algorithm discussed",
+    "gold_location": "p2",
+    "expected_keywords": ["algorithm", "step", "process"],
+    "off_material": false
+  },
+  {
+    "question": "What is the GDP of France in 2024?",
+    "off_material": true,
+    "note": "This should be refused — not in uploaded materials"
+  },
+  {
+    "question": "Who won the FIFA World Cup in 2030?",
+    "off_material": true
+  },
+  {
+    "question": "What is the latest iPhone model?",
+    "off_material": true
+  },
+  {
+    "question": "Tell me the stock price of NVIDIA",
+    "off_material": true
+  },
+  {
+    "question": "Who is the current US president?",
+    "off_material": true
+  }
+]

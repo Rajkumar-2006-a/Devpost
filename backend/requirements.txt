@@ -1,0 +1,67 @@
+# FastAPI
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+sse-starlette==2.1.0
+websockets==12.0
+
+# Database
+sqlalchemy==2.0.30
+alembic==1.13.1
+aiosqlite==0.20.0
+
+# Vector Store
+chromadb==0.5.3
+
+# LLM / Embedding providers
+google-generativeai==0.7.2
+openai==1.30.1
+tiktoken==0.7.0
+
+# PDF parsing
+PyMuPDF==1.24.5
+pdfminer.six==20231228
+
+# PPTX parsing
+python-pptx==1.0.0
+Pillow==10.3.0
+
+# Video / ASR
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+yt-dlp==2024.5.27
+
+# NLP / chunking
+sentence-transformers==3.0.1
+numpy==1.26.4
+scipy==1.13.1
+
+# BM25
+rank-bm25==0.2.2
+
+# Cross-encoder reranker
+torch==2.3.1
+transformers==4.41.2
+
+# Math verification
+sympy==1.12
+
+# Spaced repetition
+python-dateutil==2.9.0
+
+# Eval
+ragas==0.1.12
+datasets==2.19.2
+pandas==2.2.2
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.7.3
+pydantic-settings==2.3.1
+httpx==0.27.0
+aiofiles==23.2.1
+networkx==3.3
+tqdm==4.66.4
+tenacity==8.3.0
